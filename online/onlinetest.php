@@ -2,7 +2,7 @@
 require 'dbconfig.php';
 // Set the response content type to JSON
 header("Content-Type: application/json");
-print_r($jwt);die;
+
 
 // Get the HTTP method and input data
 $method = $_SERVER['REQUEST_METHOD'];
